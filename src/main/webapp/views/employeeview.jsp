@@ -1,5 +1,5 @@
 <%@ include file="header.jsp" %>
-
+<!--  this is the webpage which shows the data stored in oracle database -->
 <div class="container">
 
 	<div class="row">

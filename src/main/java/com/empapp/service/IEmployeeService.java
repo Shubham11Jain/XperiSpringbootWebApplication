@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.empapp.pojo.Employee;
 
-
+//interface which can be extended by EmployeeService
 public interface IEmployeeService {
 
 	List<Employee> getAllEmployee();

@@ -1,6 +1,7 @@
-
 <%@ include file="header.jsp" %>
 
+<!--  this is the home web page where we have made a card which gets 3 fields: employee id
+employee name and job type of the employee -->
 <div class="container">
 <div class="row justify-content-center">
                     <div class="col-md-8">

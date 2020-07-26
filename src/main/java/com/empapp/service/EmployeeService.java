@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.empapp.dao.EmployeeDAO;
 import com.empapp.pojo.Employee;
 
+//service java class
 @Service
 public class EmployeeService implements IEmployeeService {
 	

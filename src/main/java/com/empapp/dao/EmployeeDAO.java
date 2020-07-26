@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.empapp.pojo.Employee;
 
+//this java class is the database class
 @Repository
 public interface EmployeeDAO extends JpaRepository<Employee, Integer> {
 

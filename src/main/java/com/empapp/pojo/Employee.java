@@ -12,13 +12,13 @@ import javax.validation.constraints.Pattern;
 public class Employee {
 
 	@Id
-	@NotNull(message="Employee Id can not be blank, and atleast 4 in length.")
+	@NotNull(message="Employee Id cannot be blank, and atleast 4 in length.")
 	private int empId;
-	@NotEmpty(message="Employee name can not be blank.")
-	@Pattern(regexp="^[a-zA-Z_ ]*$", message="Only alphbets are allowed in Employee Name")
+	@NotEmpty(message="Employee name cannot be blank.")
+	@Pattern(regexp="^[a-zA-Z_ ]*$", message="Only alphabets are allowed in Employee Name")
 	private String empName;
-	@NotEmpty(message="Job Type con not be blank.")
-	@Pattern(regexp="^[a-zA-Z_ ]*$", message="Only alphbets are allowed in Job Type")
+	@NotEmpty(message="Job Type cannot be blank.")
+	@Pattern(regexp="^[a-zA-Z_ ]*$", message="Only alphabets are allowed in Job Type")
 	private String jobType;
 	
 	public Employee() {

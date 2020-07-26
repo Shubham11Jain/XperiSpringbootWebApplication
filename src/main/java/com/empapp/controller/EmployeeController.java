@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.empapp.pojo.Employee;
 import com.empapp.service.IEmployeeService;
 
+//we are giving annotations so that springboot get to know this is a controller java class
 @Controller
 public class EmployeeController {
 
@@ -40,7 +41,7 @@ public class EmployeeController {
 			  return "Homepage"; } else {
 			 
 			serviceRef.addEmployee(employee);
-			model.addAttribute("successMsg", "Data Inserted Successfully");
+			model.addAttribute("successMsg", "You have been successfully registered for the Xperi Corporation");
 			return "SuccessPage";
 			}
 		}

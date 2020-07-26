@@ -8,5 +8,5 @@
 4.	It should display a ‘success’ message when the employee data has been stored in the database.
 5.	There should be a button, which on clicking returns the details of all the employees who have been registered.
 
-##### You can read the explanation of the mentioned project in "Report" wordfile.
-- [x] Report
+##### You can read the explanation of the mentioned project in "Report.docx"
+- [x] Report.docx

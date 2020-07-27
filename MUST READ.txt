@@ -1,0 +1,24 @@
+REST Based Web Application using Springboot:
+
+GITHUB LINK: https://github.com/Shubham11Jain/XperiSpringbootWebApplication
+
+NOTE: The web application is up and running locally with the server port = 9091
+
+** NOTE : I am still learning the spring framework and springboot, so now i will work
+	  on the upgradation part of this REST Based Web Application.
+	  I'll try to add more features to this application.
+
+	  The existing features are: 
+		1. Form validation and add the employee details.
+		2. Reset the details.
+		3. Data inserted in oracle database.
+		4. Show All Employees Details.
+
+	  The features that I'll add and currently working on are:
+		1. Update the details of employee like his/her Name and Job Type
+			by giving a button "Update",
+		2. Delete the details of a particular employee by giving a button "Delete".
+
+
+Thank you
+Shubham Jain
